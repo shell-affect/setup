@@ -1,0 +1,74 @@
+# Location: ~./config/terminator/config
+
+[global_config]
+  enabled_plugins = TerminalShot, LaunchpadCodeURLHandler, APTURLHandler, Logger, LaunchpadBugURLHandler
+  title_transmit_bg_color = "#729fcf"
+[keybindings]
+  broadcast_all = None
+  broadcast_group = None
+  broadcast_off = None
+  close_term = None
+  close_window = None
+  copy = <Primary><Super>c
+  cycle_next = <Super>j
+  cycle_prev = <Super>k
+  edit_tab_title = <Alt>t
+  edit_terminal_title = <Super>t
+  edit_window_title = None
+  go_down = None
+  go_left = None
+  go_next = <Super>j
+  go_prev = <Super>k
+  go_right = None
+  go_up = None
+  group_all = None
+  group_tab = None
+  hide_window = None
+  insert_number = None
+  insert_padded = None
+  layout_launcher = None
+  move_tab_left = <Alt>h
+  move_tab_right = <Alt>l
+  new_tab = <Alt>r
+  new_window = None
+  next_tab = <Alt>j
+  paste = <Primary><Super>v
+  prev_tab = <Alt>k
+  reset = None
+  reset_clear = None
+  resize_down = <Alt>Down
+  resize_left = <Alt>Left
+  resize_right = <Alt>Right
+  resize_up = <Alt>Up
+  rotate_ccw = None
+  rotate_cw = None
+  scaled_zoom = None
+  search = <Alt>f
+  split_horiz = <Super>x
+  split_vert = <Super>y
+  switch_to_tab_1 = <Alt>1
+  switch_to_tab_10 = <Alt>0
+  switch_to_tab_2 = <Alt>2
+  switch_to_tab_3 = <Alt>3
+  switch_to_tab_4 = <Alt>4
+  toggle_scrollbar = None
+  toggle_zoom = None
+  ungroup_all = None
+  ungroup_tab = None
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    background_darkness = 0.87
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+    foreground_color = "#ffffff"
+    scrollback_infinite = True
+    scrollback_lines = 5000
