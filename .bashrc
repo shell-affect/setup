@@ -118,10 +118,5 @@ if [ -f /usr/bin/powerline-daemon ]; then
 	. /usr/share//powerline/bindings/bash/powerline.sh
 fi
 
-# Tmux Autostart
-#if command -v tmux &> /dev/null && [ -z "$TMUX" ]; then
-#    tmux 
-#fi
-
 # Ghidra
 export PATH=/opt/ghidra/JDK/bin:$PATH
